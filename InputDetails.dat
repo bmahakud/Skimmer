@@ -1,0 +1,27 @@
+####    Name of tree    #####
+treeName="GsfElectronToTrigger/fitter_tree"
+
+
+
+store_samples = "/home/bibhu/Desktop/LQTagandProbe/GenericNtuplePlotter/"                            
+
+
+
+####    Name of samples #####
+
+
+list_samples = ["TnPTree_data.root","TnPTree_data2.root"]
+
+
+SelVars = ["probe_Ele_et","probe_Ele_eta","probe_Ele_pt","passingHEEP","passingHLT","mass","pair_mass","probe_sc_eta","probe_sc_et"]
+
+
+
+
+
+
+
+
+
+
+
