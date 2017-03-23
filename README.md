@@ -1,4 +1,4 @@
-This will provide all the information if you want to skim a larger root file to a smaller root by applying few branches and some cuts.
+This will provide all the information if you want to skim a larger root file to a smaller root by applying few branches and some cuts. Right now the code has capability to skim a tree which has branches of only double , bool, int etc. If the Ntuple has vectors stored in it , the code will not work . But will be updated later
 
 Step1. Edit the InputDetails.dat file according to your need
 
