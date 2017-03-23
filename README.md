@@ -1,4 +1,4 @@
-This will provide all the info to use the generic plotter
+This will provide all the information if you want to skim a larger root file to a smaller root by applying few branches and some cuts.
 
 Step1. Edit the InputDetails.dat file according to your need
 
@@ -12,12 +12,11 @@ Step3.
 ```
 python MakeMasterReader.py
 ```
-Above command will create a ROOT macro named MasterReader.C which will contain relevant lines of code to read the set of Input files that have been given in InputDetails.dat
-
+Above command will create a ROOT macro named Skimmer.C which will contain relevant lines of code to read the set of Input Ntuples and make a smaller root file
 Step4.
-Now you can run the MasterReader.C in your terminal by executing the following command 
+Now you can run the Skimmer.C in your terminal by executing the following command 
 
 ```
-root -l MasterReader.C
+root -l Skimmer.C
 ```
 # Skimmer
